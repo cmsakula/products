@@ -17,3 +17,7 @@ while True:
 
 print(products)
 print(products[0][0]) # first item of product with first item of the product_attributes
+
+for p in products: 
+	print(p)
+	print('item 'p[0], 'price is ', p[1])
